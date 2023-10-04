@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>TM1</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <?php require 'functions.php' ?>
-
+  
   <div class="form-container">
     <h3>Tabel Penjumlahan</h3>
-    <form action="#" method="post">
+    <form action="index.php" method="post">
       <div>
         <label for="ukuran">Ukuran Tabel</label>
         <input type="number" id="ukuran" name="ukuran" value="<?php if(isset($_POST['ukuran'])) echo $_POST['ukuran'] ?>">
