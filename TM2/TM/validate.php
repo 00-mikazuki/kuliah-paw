@@ -21,7 +21,7 @@ function is_alphabet(&$errors, $field_list, $field_name) {
 }
 
 // validasi numerik
-function is_numeric(&$errors, $field_list, $field_name) {
+function is_numeric_field(&$errors, $field_list, $field_name) {
   $pattern = "/^[0-9]+$/";
   if (!preg_match($pattern, $field_list[$field_name]))
 		$errors[$field_name] = 'invalid';
