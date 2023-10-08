@@ -24,7 +24,7 @@
       <?php 
         if(isset($errors['nik'])) {
           if($errors['nik'] == 'required') echo "mohon isi NIK";
-          elseif($errors['nik'] == 'invalid') echo "isikan NIK dengan format angka";
+          elseif($errors['nik'] == 'invalid') echo "isikan NIK dengan format angka 16 digit";
         }
       ?>
     </div>
@@ -80,10 +80,10 @@
       <label for="status-rumah">Status Rumah Saat Ini</label>
       <select id="status-rumah" name="status_rumah">
         <option value="null">--pilih--</option>
-        <option value="sendiri">Milik Sendiri</option>
-        <option value="kontrak">Kontrak</option>
-        <option value="keluarga">Keluarga</option>
-        <option value="lainnya">Lainnya</option>
+        <option value="sendiri" <?php if(isset($_POST['status_rumah'])) if($_POST['status_rumah'] == "sendiri") echo "selected" ?> >Milik Sendiri</option>
+        <option value="kontrak" <?php if(isset($_POST['status_rumah'])) if($_POST['status_rumah'] == "kontrak") echo "selected" ?> >Kontrak</option>
+        <option value="keluarga" <?php if(isset($_POST['status_rumah'])) if($_POST['status_rumah'] == "keluarga") echo "selected" ?> >Keluarga</option>
+        <option value="lainnya" <?php if(isset($_POST['status_rumah'])) if($_POST['status_rumah'] == "lainnya") echo "selected" ?> >Lainnya</option>
       </select>
     </div>
     <div class="error">
@@ -130,12 +130,12 @@
       <label for="pendidikan">Pendidikan Terakhir</label>
       <select id="pendidikan" name="pendidikan">
         <option value="null">--pilih--</option>
-        <option value="s3">S3</option>
-        <option value="s2">S2</option>
-        <option value="s1">S1</option>
-        <option value="sma">SMA</option>
-        <option value="smp">SMP</option>
-        <option value="sd">SD</option>
+        <option value="s3" <?php if(isset($_POST['pendidikan'])) if($_POST['pendidikan'] == "s3") echo "selected" ?> >S3</option>
+        <option value="s2" <?php if(isset($_POST['pendidikan'])) if($_POST['pendidikan'] == "s2") echo "selected" ?> >S2</option>
+        <option value="s1" <?php if(isset($_POST['pendidikan'])) if($_POST['pendidikan'] == "s1") echo "selected" ?> >S1</option>
+        <option value="sma" <?php if(isset($_POST['pendidikan'])) if($_POST['pendidikan'] == "sma") echo "selected" ?> >SMA</option>
+        <option value="smp" <?php if(isset($_POST['pendidikan'])) if($_POST['pendidikan'] == "smp") echo "selected" ?> >SMP</option>
+        <option value="sd" <?php if(isset($_POST['pendidikan'])) if($_POST['pendidikan'] == "sd") echo "selected" ?> >SD</option>
       </select>
     </div>
     <div class="error">
@@ -152,8 +152,8 @@
       <label for="pernikahan">Status Pernikahan</label>
       <select id="pernikahan" name="pernikahan">
         <option value="null">--pilih--</option>
-        <option value="belum">BELUM MENIKAH</option>
-        <option value="sudah">SUDAH MENIKAH</option>
+        <option value="belum" <?php if(isset($_POST['pernikahan'])) if($_POST['pernikahan'] == "belum") echo "selected" ?>>BELUM MENIKAH</option>
+        <option value="sudah" <?php if(isset($_POST['pernikahan'])) if($_POST['pernikahan'] == "sudah") echo "selected" ?>>SUDAH MENIKAH</option>
       </select>
     </div>
     <div class="error">

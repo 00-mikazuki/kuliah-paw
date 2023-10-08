@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="background-image"></div>
   <div class="form-container">
     <h1>Formulir Pengajuan Dana Bantuan</h1>
     <form action="index.php" method="post">
@@ -54,7 +55,7 @@
         is_option_selected($errors, $_POST, 'pendidikan');
         
         // validasi status pernikahan
-        is_option_selected($errors, $_POST, 'pendidikan');
+        is_option_selected($errors, $_POST, 'pernikahan');
         
         // validasi status pernikahan
         is_numeric_fill($errors, $_POST, 'jumlah_anak');
