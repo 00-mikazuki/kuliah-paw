@@ -19,7 +19,7 @@ body {
   right: 0;
   z-index: -999;
   background-color: #333;
-  background-image: url('img/money2.jpg');
+  background-image: url(img/money.jpg);
   background-size: contain;
   filter: brightness(60%);
   -webkit-filter: brightness(60%);
