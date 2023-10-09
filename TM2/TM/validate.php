@@ -60,7 +60,7 @@ function is_email_format(&$errors, $field_list, $field_name) {
 
 // validasi format alamat
 function is_address_format(&$errors, $field_list, $field_name) {
-  $pattern = "/^[\w\/.-]{2,}$/";
+  $pattern = "/^[\w\.\,\/\s]{2,}$/";
   if(!preg_match($pattern, $field_list[$field_name])) {
     $errors[$field_name] = 'invalid';
   }
