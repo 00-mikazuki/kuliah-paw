@@ -29,6 +29,9 @@
         // validasi nama pelaku usaha
         is_alphabet($errors, $_POST, 'nama-pelaku');
         is_empty_fill($errors, $_POST, 'nama-pelaku');
+
+        // validasi jenis pelaku usaha(f)
+        is_option_selected($errors, $_POST, 'jenis-usaha');
         
         // validasi notelp
         is_numeric_fill($errors, $_POST, 'notelp');
