@@ -1,3 +1,11 @@
+CREATE TABLE `customerdb`.`Customer`
+    (`customerID` INT NOT NULL AUTO_INCREMENT,
+    `firstname` VARCHAR(45) NOT NULL,
+    `address` VARCHAR(256) NULL ,
+    `balance` DECIMAL NOT NULL ,
+    PRIMARY KEY (`customerID`)) ENGINE =InnoDB;
+
+
 SELECT firstname, address
 FROM customer
 WHERE balance > 0;
@@ -17,6 +25,7 @@ VALUES ('Baharudin', 'Jl. Mengkudu No. 456, Surabaya', 1200000);
 SELECT firstname, balance
 FROM customer
 WHERE balance >= 1000000
+-- ORDER BY 2 DESC;
 ORDER BY balance DESC;
 
 -- challenge 2
@@ -32,7 +41,26 @@ FROM customer
 WHERE address LIKE '%Surabaya'
 ORDER BY firstname DESC;
 
+SELECT firstname, balance
+FROM customer
+WHERE LOWER(address) LIKE '%surabaya%'
+ORDER BY firstname DESC;
+
 -- challenge 4
+CREATE TABLE `bookstore`.`books` (
+  `bookID` INT NOT NULL AUTO_INCREMENT,
+  `bookTitle` VARCHAR(45) NOT NULL,
+  `bookID` INT NOT NULL ,
+  `yearPublished` YEAR NOT NULL ,
+  PRIMARY KEY (`bookID`)
+  ) ENGINE =InnoDB;
+
+CREATE TABLE `bookstore`.`series`(
+  `seriesID` INT NOT NULL AUTO_INCREMENT,
+  `seriesDescription` VARCHAR(45) NOT NULL,
+  PRIMARY KEY (`seriesID`)
+  ) ENGINE =InnoDB;
+
 INSERT INTO series (seriesDescription)
 VALUES ('Harry Potter'), ('The Lord of the Rings'), ('The Chronicles of Narnia');
 
@@ -56,3 +84,4 @@ SELECT books.bookTitle, series.seriesDescription, books.yearPublished
 FROM books
 INNER JOIN series 
 ON books.seriesID = series.seriesID;
+
