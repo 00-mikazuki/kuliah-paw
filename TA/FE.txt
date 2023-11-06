@@ -1,0 +1,18 @@
+login
+registrasi
+
+Customer
+- list produk(add keranjang)
+- list kategori
+- keranjang produk(hapus, edit, add pembayaran) -> Pembayaran (hapus, edit)
+- profil(edit)
+
+
+Manager
+- rekap penjualan sudah dibayar
+- belum dibayar
+
+Admin
+- data customer
+- list produk (edit)
+- data supplier
