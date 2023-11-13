@@ -1,11 +1,11 @@
-login
-registrasi
+login v
+registrasi v
 
 Customer
-- list produk(add keranjang)
-- list kategori
+- list produk(add keranjang) v
+- list kategori v
 - keranjang produk(hapus, edit, add pembayaran) -> Pembayaran (hapus, edit)
-- profil(edit)
+- profil(edit) v
 
 
 Manager
