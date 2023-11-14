@@ -14,8 +14,8 @@ $title = 'Profil';
             <h2>Customer Profile</h2>
           </div>
           <div class="form-element">
-            <label for="email">Email</label>
-            <input type="text" id="email">
+            <label for="username">Username</label>
+            <input type="text" id="username" disabled value="Username">
           </div>
           <div class="form-element">
             <label for="alamat">Alamat</label>

@@ -1,9 +1,10 @@
   <section>
     <nav>
       <div class="nav-container">
-        <div class="logo">
+        <a href="" class="logo">
+          <img src="<?= BASEURL ?>/assets/img/meat.png" alt="meat-icon">
           <h1>MeatMaster</h1>
-        </div>
+        </a>
         <ul class="link-list">
           <li><a href="<?= BASEURL ?>/app/customer/product.php" class="<?php if($page == 'product') echo 'link-active' ?>">Product</a></li>
           <li><a href="<?= BASEURL ?>/app/customer/categories.php" class="<?php if($page == 'categories') echo 'link-active' ?>">Categories</a></li>

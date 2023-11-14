@@ -21,10 +21,118 @@ $title = 'Shopping Cart';
         <h2>Product List:</h2>
 
         <!-- Product List -->
-        <div class="card-list">
+        <div class="card-list grid">
           <div class="card">
             <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
-            <div class="card-desc">
+            <div class="card-desc cart">
+              <h3>Product name</h3>
+              <p class="prod-cate">Categories</p>
+              <p class="prod-desc">300gr</p>
+            </div>
+            <div class="act-product">
+              <div class="quantity">
+                <a href="" class="minus">-</a>
+                <div class="amount">0</div>
+                <a href="" class="plus">+</a>
+              </div>
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/cart-minus.png" alt="cart-minus">
+              </a>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
+            <div class="card-desc cart">
+              <h3>Product name</h3>
+              <p class="prod-cate">Categories</p>
+              <p class="prod-desc">300gr</p>
+            </div>
+            <div class="act-product">
+              <div class="quantity">
+                <a href="" class="minus">-</a>
+                <div class="amount">0</div>
+                <a href="" class="plus">+</a>
+              </div>
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/cart-minus.png" alt="cart-minus">
+              </a>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
+            <div class="card-desc cart">
+              <h3>Product name</h3>
+              <p class="prod-cate">Categories</p>
+              <p class="prod-desc">300gr</p>
+            </div>
+            <div class="act-product">
+              <div class="quantity">
+                <a href="" class="minus">-</a>
+                <div class="amount">0</div>
+                <a href="" class="plus">+</a>
+              </div>
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/cart-minus.png" alt="cart-minus">
+              </a>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
+            <div class="card-desc cart">
+              <h3>Product name</h3>
+              <p class="prod-cate">Categories</p>
+              <p class="prod-desc">300gr</p>
+            </div>
+            <div class="act-product">
+              <div class="quantity">
+                <a href="" class="minus">-</a>
+                <div class="amount">0</div>
+                <a href="" class="plus">+</a>
+              </div>
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/cart-minus.png" alt="cart-minus">
+              </a>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
+            <div class="card-desc cart">
+              <h3>Product name</h3>
+              <p class="prod-cate">Categories</p>
+              <p class="prod-desc">300gr</p>
+            </div>
+            <div class="act-product">
+              <div class="quantity">
+                <a href="" class="minus">-</a>
+                <div class="amount">0</div>
+                <a href="" class="plus">+</a>
+              </div>
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/cart-minus.png" alt="cart-minus">
+              </a>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
+            <div class="card-desc cart">
+              <h3>Product name</h3>
+              <p class="prod-cate">Categories</p>
+              <p class="prod-desc">300gr</p>
+            </div>
+            <div class="act-product">
+              <div class="quantity">
+                <a href="" class="minus">-</a>
+                <div class="amount">0</div>
+                <a href="" class="plus">+</a>
+              </div>
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/cart-minus.png" alt="cart-minus">
+              </a>
+            </div>
+          </div>          
+          <div class="card">
+            <div class="card-pict" style="background-image: url(<?= BASEURL ?>/assets/img/picture/meat.jpg);"></div>
+            <div class="card-desc cart">
               <h3>Product name</h3>
               <p class="prod-cate">Categories</p>
               <p class="prod-desc">300gr</p>

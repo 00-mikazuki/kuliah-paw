@@ -1,6 +1,6 @@
 <?php 
 $page = 'product';
-$title = 'Product Data';
+$title = 'Edit Product';
 ?>
 
 <?php require_once 'templates/header.php' ?>
@@ -56,7 +56,7 @@ $title = 'Product Data';
             <textarea name="deskripsi" id="deskripsi"></textarea>
           </div>
           <div class="form-element button">
-            <button href="" >Add</button>
+            <button href="">Edit</button>
             <button href="" class="cancel">Cancel</button>
           </div>
         </form>

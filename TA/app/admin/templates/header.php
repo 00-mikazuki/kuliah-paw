@@ -15,6 +15,10 @@ require_once("../base.php");
       font-family: 'Poppins';
       src: url('<?= BASEURL  ?>/assets/fonts/Poppins-Regular.ttf');
     }
+    body {
+      background-image: url('<?= BASEURL ?>/assets/img/white-wall-textures.jpg');
+      background-size: 20vw;
+    }
   </style>
 </head>
 <body>

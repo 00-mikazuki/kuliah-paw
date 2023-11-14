@@ -30,13 +30,72 @@ $title = 'Customer Data';
               <h3>Alamat</h3>
             </div>
           </div>
-          <div class="card row">
-            <div class="col">
-              <p>Username customer</p>
+          <div class="card-row-container">
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
             </div>
-            <div class="col">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
             </div>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
+            </div>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
+            </div>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
+            </div>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
+            </div>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
+            </div>
+            <div class="card row">
+              <div class="col">
+                <p>Username customer</p>
+              </div>
+              <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
+              </div>
+            </div>
+            
           </div>
           <!-- end card List -->
         </div>

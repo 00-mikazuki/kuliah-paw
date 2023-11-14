@@ -6,6 +6,7 @@
   padding-bottom: 10rem;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  min-height: 600px;
 }
 
 .search {
@@ -48,7 +49,8 @@
 .card-container {
   color: #222;
   padding-top: 1rem;
-  padding-bottom: 10rem;
+  min-height: 300px;
+  /* padding-bottom: 10rem; */
 }
 
 .card-container > h2 {
@@ -62,9 +64,11 @@
   justify-content: center;
 }
 
+
 .card {
   background-color: white;
   width: 100%;
+  /* min-height: 80px; */
   padding: 0.5rem;
   /* border: 1px solid #999; */
   border-radius: 10px;
@@ -74,12 +78,26 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
+.card-row-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.card-row-container .card.row {
+  box-sizing: border-box;
+}
+
 .card.row {
   margin-right: 0;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
   margin-bottom: 0.5rem;
+  height: fit-content;
 }
 
 .card.row h3 {
@@ -121,13 +139,17 @@
   background-position: center;
 }
 
+.card-desc.cart {
+  margin-bottom: 2.2rem;
+}
+
 .card-desc h3 {
   font-size: 0.9rem;
 }
 
 .card-desc p:nth-child(2) {
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 0.8rem;
 }
 
 .card-desc p:nth-child(3), 
@@ -273,6 +295,7 @@
 .amount-product {
   font-size: 0.8rem;
   margin-right: 0.5rem;
+  /* padding-top: 1rem; */
   /* position: absolute;
   right: 0.8rem;
   bottom: 0.5rem; */
@@ -284,6 +307,7 @@
 
 .payment select {
   display: block;
+  background-color: #ccc;
   width: 100%;
   padding: 1rem;
   border: 0;
@@ -353,7 +377,7 @@ section#login {
   border-radius: 0.3rem;
   border: 0;
   outline: 0;
-  background-color: #ddd;
+  background-color: #ccc;
   padding: 0.5rem;
   box-sizing: border-box;
 }
@@ -435,6 +459,7 @@ button.cancel {
   .main-container {
     padding-left: 4rem;
     padding-right: 4rem;
+    min-height: 600px;
     padding-bottom: 10rem;
   }
 
@@ -449,16 +474,43 @@ button.cancel {
     width: 60px;
   }
 
-  .card-container {
-    padding-bottom: 10rem;
+  .card-list.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 0.5rem;
+    justify-items: center;
+    justify-content: center;
+  }
+
+  .card-list.checkout {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    flex-basis: auto;
+    overflow-x: scroll;
+  }
+  
+  .card-list.checkout .card {
+    max-width: 200px;
+    flex: 1 0 auto;
   }
 
   .card {
     padding: 0.8rem;
-    width: 220px;
+    width: 200px;
     flex-direction: column;
     margin-right: 10px;
     margin-bottom: 10px;
+  }
+
+  .card-list.grid .card {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+  
+  .card-row-container .card.row {
+    padding-left: 1.2rem;
   }
 
   .card.row {
@@ -488,7 +540,15 @@ button.cancel {
   }
 
   .card-desc {
-    margin-bottom: 50px;
+    margin-bottom: 2rem;
+  }
+
+  .card-desc.no-pict {
+    margin-bottom: 3rem;
+  }
+
+  .card-desc.checkout {
+    margin-bottom: 1rem;
   }
 
   .card-desc p.prod-cate {
@@ -546,6 +606,10 @@ button.cancel {
 
   .box-link img {
     width: 2rem;
+  }
+
+  .payment {
+    margin-top: 1rem;
   }
 
   .payment select {

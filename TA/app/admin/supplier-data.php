@@ -21,9 +21,87 @@ $title = 'Supplier Data';
         <h2>Supplier List:</h2>
 
         <!-- Product List -->
-        <div class="card-list">
+        <div class="card-list grid">
           <div class="card categories">
-            <div class="card-desc">
+            <div class="card-desc no-pict">
+              <h3>Supplier name</h3>
+            </div>
+            <div class="act-product">
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/edit.png" alt="cart">
+              </a>
+              <a href="#" class="prod-button delete">
+                <img src="<?= BASEURL  ?>/assets/img/delete.png" alt="cart">
+              </a>
+            </div>
+          </div>          
+          <div class="card categories">
+            <div class="card-desc no-pict">
+              <h3>Supplier name</h3>
+            </div>
+            <div class="act-product">
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/edit.png" alt="cart">
+              </a>
+              <a href="#" class="prod-button delete">
+                <img src="<?= BASEURL  ?>/assets/img/delete.png" alt="cart">
+              </a>
+            </div>
+          </div>          
+          <div class="card categories">
+            <div class="card-desc no-pict">
+              <h3>Supplier name</h3>
+            </div>
+            <div class="act-product">
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/edit.png" alt="cart">
+              </a>
+              <a href="#" class="prod-button delete">
+                <img src="<?= BASEURL  ?>/assets/img/delete.png" alt="cart">
+              </a>
+            </div>
+          </div>          
+          <div class="card categories">
+            <div class="card-desc no-pict">
+              <h3>Supplier name</h3>
+            </div>
+            <div class="act-product">
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/edit.png" alt="cart">
+              </a>
+              <a href="#" class="prod-button delete">
+                <img src="<?= BASEURL  ?>/assets/img/delete.png" alt="cart">
+              </a>
+            </div>
+          </div>          
+          <div class="card categories">
+            <div class="card-desc no-pict">
+              <h3>Supplier name</h3>
+            </div>
+            <div class="act-product">
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/edit.png" alt="cart">
+              </a>
+              <a href="#" class="prod-button delete">
+                <img src="<?= BASEURL  ?>/assets/img/delete.png" alt="cart">
+              </a>
+            </div>
+          </div>          
+          <div class="card categories">
+            <div class="card-desc no-pict">
+              <h3>Supplier name</h3>
+            </div>
+            <div class="act-product">
+              <a href="#" class="prod-button">
+                <img src="<?= BASEURL  ?>/assets/img/edit.png" alt="cart">
+              </a>
+              <a href="#" class="prod-button delete">
+                <img src="<?= BASEURL  ?>/assets/img/delete.png" alt="cart">
+              </a>
+            </div>
+          </div>          
+          <div class="card categories">
+            <div class="card-desc no-pict">
               <h3>Supplier name</h3>
             </div>
             <div class="act-product">
