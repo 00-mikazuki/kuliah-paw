@@ -20,84 +20,38 @@ $title = 'Customer Data';
       <div class="card-container">
         <h2>Customer List:</h2>
 
-        <!-- Product List -->
-        <div class="card-list">
-          <div class="card row header">
-            <div class="col">
-              <h3>Username</h3>
-            </div>
-            <div class="col">
-              <h3>Alamat</h3>
-            </div>
-          </div>
-          <div class="card-row-container">
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            <div class="card row">
-              <div class="col">
-                <p>Username customer</p>
-              </div>
-              <div class="col">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, accusamus?</p>
-              </div>
-            </div>
-            
-          </div>
-          <!-- end card List -->
+        <div class="table-container admin">
+          <table>
+            <tr>
+              <th>Username</th>
+              <th>Alamat</th>
+            </tr>
+            <tr>
+              <td>Username Customer</td>
+              <td>Alamat Customer</td>
+            </tr>
+            <tr>
+              <td>Username Customer</td>
+              <td>Alamat Customer</td>
+            </tr>
+            <tr>
+              <td>Username Customer</td>
+              <td>Alamat Customer</td>
+            </tr>
+            <tr>
+              <td>Username Customer</td>
+              <td>Alamat Customer</td>
+            </tr>
+            <tr>
+              <td>Username Customer</td>
+              <td>Alamat Customer</td>
+            </tr>
+            <tr>
+              <td>Username Customer</td>
+              <td>Alamat Customer</td>
+            </tr>
+          </table>
+          <!-- end table -->
         </div>
         <!-- end card container -->
       </div>

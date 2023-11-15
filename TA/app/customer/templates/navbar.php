@@ -8,6 +8,7 @@
         <ul class="link-list">
           <li><a href="<?= BASEURL ?>/app/customer/product.php" class="<?php if($page == 'product') echo 'link-active' ?>">Product</a></li>
           <li><a href="<?= BASEURL ?>/app/customer/categories.php" class="<?php if($page == 'categories') echo 'link-active' ?>">Categories</a></li>
+          <li><a href="<?= BASEURL ?>/app/customer/transaction.php" class="<?php if($page == 'transaction') echo 'link-active' ?>">Transaction</a></li>
           <li><a href="<?= BASEURL ?>/app/customer/profil.php" class="<?php if($page == 'profil') echo 'link-active' ?>">Profil</a></li>
           <li><a href="#" class="logout" >Log out</a></li>
         </ul>
